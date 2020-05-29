@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mocker</title>
+        
+        <style>
+            .panel {
+                width: 500px;
+                margin: 10px;
+                font-family: sans-serif;
+                margin-left: calc(50% - 250px);
+                padding: 20px;
+                background: #EEE;
+                border-radius: 10px;
+            }
+            
+            #text {
+                color: #444;
+                width: calc(100% - 22px);
+                font-family: sans-serif;
+                border-radius: 5px;
+                border: 1px solid #bbb;
+                padding: 10px;
+            }
+            
+            #title {
+                color: #aaa;
+                font-family: sans-serif;
+            }
+            
+            #result {
+                color: #444;
+                font-family: sans-serif;
+                width: calc(100% - 10px);
+                text-colapse: warp;
+                height: inherit;
+            }
+            
+            #copy {
+                background: #EEE;
+                float: right;
+                cursor: pointer;
+                padding: 5px;
+                color: #666;
+                font-family: sans-serif;
+                border-radius: 5px;
+                border: 1px solid #bbb;
+            }
+            
+            #copy:active {
+                background: #AAA;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="panel">
+            <h1>I Ficator 1.0</h1>
+            <span id="title">Text:</span>
+            <input id="text" placeholder="Text"></input>
+            <br>
+            <br>
+            <span id="title">Result:</span><button id="copy" onclick="_copy()">COPY</button>
+            <br>
+            <br>
+            <textarea id="result"></textarea>
+        </div>
+        
+        <script>
+            function ificator(src) {
+                let chars = "aeou";
+                let out = src;
+                
+                for(let i=0; i < 4; i++) {
+                    out = out.split(chars[i]).join("i");
+                }
+                
+                return out;
+            }
+            
+            function _copy() {
+                document.getElementById("result").select();
+                document.execCommand('copy');
+            }
+            
+            document.getElementById("text").addEventListener("input", function(e) {
+                document.getElementById("result").value = ificator(this.value);
+            });
+        </script>
+    </body>
+</html>
