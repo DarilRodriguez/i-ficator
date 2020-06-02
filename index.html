@@ -57,7 +57,7 @@
         <div class="panel">
             <h1>I Ficator 1.0</h1>
             <span id="title">Text:</span>
-            <input id="text" placeholder="Text"></input>
+            <textarea id="text" placeholder="Text"></input>
             <br>
             <br>
             <span id="title">Result:</span><button id="copy" onclick="_copy()">COPY</button>
@@ -89,7 +89,12 @@
             }
             
             document.getElementById("text").addEventListener("input", function(e) {
-                document.getElementById("result").value = ificator(this.value);
+                let l = this.value.split("\n");
+                document.getElementById("result").value = "";
+                
+                for(x in a) {
+                    document.getElementById("result").value += ificator(a[x]) + "\n";
+                }
             });
         </script>
     </body>
