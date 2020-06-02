@@ -1,674 +1,675 @@
-                    GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
-
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-                            Preamble
-
-  The GNU General Public License is a free, copyleft license for
-software and other kinds of works.
-
-  The licenses for most software and other practical works are designed
-to take away your freedom to share and change the works.  By contrast,
-the GNU General Public License is intended to guarantee your freedom to
-share and change all versions of a program--to make sure it remains free
-software for all its users.  We, the Free Software Foundation, use the
-GNU General Public License for most of our software; it applies also to
-any other work released this way by its authors.  You can apply it to
-your programs, too.
-
-  When we speak of free software, we are referring to freedom, not
-price.  Our General Public Licenses are designed to make sure that you
-have the freedom to distribute copies of free software (and charge for
-them if you wish), that you receive source code or can get it if you
-want it, that you can change the software or use pieces of it in new
-free programs, and that you know you can do these things.
-
-  To protect your rights, we need to prevent others from denying you
-these rights or asking you to surrender the rights.  Therefore, you have
-certain responsibilities if you distribute copies of the software, or if
-you modify it: responsibilities to respect the freedom of others.
-
-  For example, if you distribute copies of such a program, whether
-gratis or for a fee, you must pass on to the recipients the same
-freedoms that you received.  You must make sure that they, too, receive
-or can get the source code.  And you must show them these terms so they
-know their rights.
-
-  Developers that use the GNU GPL protect your rights with two steps:
-(1) assert copyright on the software, and (2) offer you this License
-giving you legal permission to copy, distribute and/or modify it.
-
-  For the developers' and authors' protection, the GPL clearly explains
-that there is no warranty for this free software.  For both users' and
-authors' sake, the GPL requires that modified versions be marked as
-changed, so that their problems will not be attributed erroneously to
-authors of previous versions.
-
-  Some devices are designed to deny users access to install or run
-modified versions of the software inside them, although the manufacturer
-can do so.  This is fundamentally incompatible with the aim of
-protecting users' freedom to change the software.  The systematic
-pattern of such abuse occurs in the area of products for individuals to
-use, which is precisely where it is most unacceptable.  Therefore, we
-have designed this version of the GPL to prohibit the practice for those
-products.  If such problems arise substantially in other domains, we
-stand ready to extend this provision to those domains in future versions
-of the GPL, as needed to protect the freedom of users.
-
-  Finally, every program is threatened constantly by software patents.
-States should not allow patents to restrict development and use of
-software on general-purpose computers, but in those that do, we wish to
-avoid the special danger that patents applied to a free program could
-make it effectively proprietary.  To prevent this, the GPL assures that
-patents cannot be used to render the program non-free.
-
-  The precise terms and conditions for copying, distribution and
-modification follow.
-
-                       TERMS AND CONDITIONS
-
-  0. Definitions.
-
-  "This License" refers to version 3 of the GNU General Public License.
-
-  "Copyright" also means copyright-like laws that apply to other kinds of
-works, such as semiconductor masks.
-
-  "The Program" refers to any copyrightable work licensed under this
-License.  Each licensee is addressed as "you".  "Licensees" and
-"recipients" may be individuals or organizations.
-
-  To "modify" a work means to copy from or adapt all or part of the work
-in a fashion requiring copyright permission, other than the making of an
-exact copy.  The resulting work is called a "modified version" of the
-earlier work or a work "based on" the earlier work.
-
-  A "covered work" means either the unmodified Program or a work based
-on the Program.
-
-  To "propagate" a work means to do anything with it that, without
-permission, would make you directly or secondarily liable for
-infringement under applicable copyright law, except executing it on a
-computer or modifying a private copy.  Propagation includes copying,
-distribution (with or without modification), making available to the
-public, and in some countries other activities as well.
-
-  To "convey" a work means any kind of propagation that enables other
-parties to make or receive copies.  Mere interaction with a user through
-a computer network, with no transfer of a copy, is not conveying.
-
-  An interactive user interface displays "Appropriate Legal Notices"
-to the extent that it includes a convenient and prominently visible
-feature that (1) displays an appropriate copyright notice, and (2)
-tells the user that there is no warranty for the work (except to the
-extent that warranties are provided), that licensees may convey the
-work under this License, and how to view a copy of this License.  If
-the interface presents a list of user commands or options, such as a
-menu, a prominent item in the list meets this criterion.
-
-  1. Source Code.
-
-  The "source code" for a work means the preferred form of the work
-for making modifications to it.  "Object code" means any non-source
-form of a work.
-
-  A "Standard Interface" means an interface that either is an official
-standard defined by a recognized standards body, or, in the case of
-interfaces specified for a particular programming language, one that
-is widely used among developers working in that language.
-
-  The "System Libraries" of an executable work include anything, other
-than the work as a whole, that (a) is included in the normal form of
-packaging a Major Component, but which is not part of that Major
-Component, and (b) serves only to enable use of the work with that
-Major Component, or to implement a Standard Interface for which an
-implementation is available to the public in source code form.  A
-"Major Component", in this context, means a major essential component
-(kernel, window system, and so on) of the specific operating system
-(if any) on which the executable work runs, or a compiler used to
-produce the work, or an object code interpreter used to run it.
-
-  The "Corresponding Source" for a work in object code form means all
-the source code needed to generate, install, and (for an executable
-work) run the object code and to modify the work, including scripts to
-control those activities.  However, it does not include the work's
-System Libraries, or general-purpose tools or generally available free
-programs which are used unmodified in performing those activities but
-which are not part of the work.  For example, Corresponding Source
-includes interface definition files associated with source files for
-the work, and the source code for shared libraries and dynamically
-linked subprograms that the work is specifically designed to require,
-such as by intimate data communication or control flow between those
-subprograms and other parts of the work.
-
-  The Corresponding Source need not include anything that users
-can regenerate automatically from other parts of the Corresponding
-Source.
-
-  The Corresponding Source for a work in source code form is that
-same work.
-
-  2. Basic Permissions.
-
-  All rights granted under this License are granted for the term of
-copyright on the Program, and are irrevocable provided the stated
-conditions are met.  This License explicitly affirms your unlimited
-permission to run the unmodified Program.  The output from running a
-covered work is covered by this License only if the output, given its
-content, constitutes a covered work.  This License acknowledges your
-rights of fair use or other equivalent, as provided by copyright law.
-
-  You may make, run and propagate covered works that you do not
-convey, without conditions so long as your license otherwise remains
-in force.  You may convey covered works to others for the sole purpose
-of having them make modifications exclusively for you, or provide you
-with facilities for running those works, provided that you comply with
-the terms of this License in conveying all material for which you do
-not control copyright.  Those thus making or running the covered works
-for you must do so exclusively on your behalf, under your direction
-and control, on terms that prohibit them from making any copies of
-your copyrighted material outside their relationship with you.
-
-  Conveying under any other circumstances is permitted solely under
-the conditions stated below.  Sublicensing is not allowed; section 10
-makes it unnecessary.
-
-  3. Protecting Users' Legal Rights From Anti-Circumvention Law.
-
-  No covered work shall be deemed part of an effective technological
-measure under any applicable law fulfilling obligations under article
-11 of the WIPO copyright treaty adopted on 20 December 1996, or
-similar laws prohibiting or restricting circumvention of such
-measures.
-
-  When you convey a covered work, you waive any legal power to forbid
-circumvention of technological measures to the extent such circumvention
-is effected by exercising rights under this License with respect to
-the covered work, and you disclaim any intention to limit operation or
-modification of the work as a means of enforcing, against the work's
-users, your or third parties' legal rights to forbid circumvention of
-technological measures.
-
-  4. Conveying Verbatim Copies.
-
-  You may convey verbatim copies of the Program's source code as you
-receive it, in any medium, provided that you conspicuously and
-appropriately publish on each copy an appropriate copyright notice;
-keep intact all notices stating that this License and any
-non-permissive terms added in accord with section 7 apply to the code;
-keep intact all notices of the absence of any warranty; and give all
-recipients a copy of this License along with the Program.
-
-  You may charge any price or no price for each copy that you convey,
-and you may offer support or warranty protection for a fee.
-
-  5. Conveying Modified Source Versions.
-
-  You may convey a work based on the Program, or the modifications to
-produce it from the Program, in the form of source code under the
-terms of section 4, provided that you also meet all of these conditions:
-
-    a) The work must carry prominent notices stating that you modified
-    it, and giving a relevant date.
-
-    b) The work must carry prominent notices stating that it is
-    released under this License and any conditions added under section
-    7.  This requirement modifies the requirement in section 4 to
-    "keep intact all notices".
-
-    c) You must license the entire work, as a whole, under this
-    License to anyone who comes into possession of a copy.  This
-    License will therefore apply, along with any applicable section 7
-    additional terms, to the whole of the work, and all its parts,
-    regardless of how they are packaged.  This License gives no
-    permission to license the work in any other way, but it does not
-    invalidate such permission if you have separately received it.
-
-    d) If the work has interactive user interfaces, each must display
-    Appropriate Legal Notices; however, if the Program has interactive
-    interfaces that do not display Appropriate Legal Notices, your
-    work need not make them do so.
-
-  A compilation of a covered work with other separate and independent
-works, which are not by their nature extensions of the covered work,
-and which are not combined with it such as to form a larger program,
-in or on a volume of a storage or distribution medium, is called an
-"aggregate" if the compilation and its resulting copyright are not
-used to limit the access or legal rights of the compilation's users
-beyond what the individual works permit.  Inclusion of a covered work
-in an aggregate does not cause this License to apply to the other
-parts of the aggregate.
-
-  6. Conveying Non-Source Forms.
-
-  You may convey a covered work in object code form under the terms
-of sections 4 and 5, provided that you also convey the
-machine-readable Corresponding Source under the terms of this License,
-in one of these ways:
-
-    a) Convey the object code in, or embodied in, a physical product
-    (including a physical distribution medium), accompanied by the
-    Corresponding Source fixed on a durable physical medium
-    customarily used for software interchange.
-
-    b) Convey the object code in, or embodied in, a physical product
-    (including a physical distribution medium), accompanied by a
-    written offer, valid for at least three years and valid for as
-    long as you offer spare parts or customer support for that product
-    model, to give anyone who possesses the object code either (1) a
-    copy of the Corresponding Source for all the software in the
-    product that is covered by this License, on a durable physical
-    medium customarily used for software interchange, for a price no
-    more than your reasonable cost of physically performing this
-    conveying of source, or (2) access to copy the
-    Corresponding Source from a network server at no charge.
-
-    c) Convey individual copies of the object code with a copy of the
-    written offer to provide the Corresponding Source.  This
-    alternative is allowed only occasionally and noncommercially, and
-    only if you received the object code with such an offer, in accord
-    with subsection 6b.
-
-    d) Convey the object code by offering access from a designated
-    place (gratis or for a charge), and offer equivalent access to the
-    Corresponding Source in the same way through the same place at no
-    further charge.  You need not require recipients to copy the
-    Corresponding Source along with the object code.  If the place to
-    copy the object code is a network server, the Corresponding Source
-    may be on a different server (operated by you or a third party)
-    that supports equivalent copying facilities, provided you maintain
-    clear directions next to the object code saying where to find the
-    Corresponding Source.  Regardless of what server hosts the
-    Corresponding Source, you remain obligated to ensure that it is
-    available for as long as needed to satisfy these requirements.
-
-    e) Convey the object code using peer-to-peer transmission, provided
-    you inform other peers where the object code and Corresponding
-    Source of the work are being offered to the general public at no
-    charge under subsection 6d.
-
-  A separable portion of the object code, whose source code is excluded
-from the Corresponding Source as a System Library, need not be
-included in conveying the object code work.
-
-  A "User Product" is either (1) a "consumer product", which means any
-tangible personal property which is normally used for personal, family,
-or household purposes, or (2) anything designed or sold for incorporation
-into a dwelling.  In determining whether a product is a consumer product,
-doubtful cases shall be resolved in favor of coverage.  For a particular
-product received by a particular user, "normally used" refers to a
-typical or common use of that class of product, regardless of the status
-of the particular user or of the way in which the particular user
-actually uses, or expects or is expected to use, the product.  A product
-is a consumer product regardless of whether the product has substantial
-commercial, industrial or non-consumer uses, unless such uses represent
-the only significant mode of use of the product.
-
-  "Installation Information" for a User Product means any methods,
-procedures, authorization keys, or other information required to install
-and execute modified versions of a covered work in that User Product from
-a modified version of its Corresponding Source.  The information must
-suffice to ensure that the continued functioning of the modified object
-code is in no case prevented or interfered with solely because
-modification has been made.
-
-  If you convey an object code work under this section in, or with, or
-specifically for use in, a User Product, and the conveying occurs as
-part of a transaction in which the right of possession and use of the
-User Product is transferred to the recipient in perpetuity or for a
-fixed term (regardless of how the transaction is characterized), the
-Corresponding Source conveyed under this section must be accompanied
-by the Installation Information.  But this requirement does not apply
-if neither you nor any third party retains the ability to install
-modified object code on the User Product (for example, the work has
-been installed in ROM).
-
-  The requirement to provide Installation Information does not include a
-requirement to continue to provide support service, warranty, or updates
-for a work that has been modified or installed by the recipient, or for
-the User Product in which it has been modified or installed.  Access to a
-network may be denied when the modification itself materially and
-adversely affects the operation of the network or violates the rules and
-protocols for communication across the network.
-
-  Corresponding Source conveyed, and Installation Information provided,
-in accord with this section must be in a format that is publicly
-documented (and with an implementation available to the public in
-source code form), and must require no special password or key for
-unpacking, reading or copying.
-
-  7. Additional Terms.
-
-  "Additional permissions" are terms that supplement the terms of this
-License by making exceptions from one or more of its conditions.
-Additional permissions that are applicable to the entire Program shall
-be treated as though they were included in this License, to the extent
-that they are valid under applicable law.  If additional permissions
-apply only to part of the Program, that part may be used separately
-under those permissions, but the entire Program remains governed by
-this License without regard to the additional permissions.
-
-  When you convey a copy of a covered work, you may at your option
-remove any additional permissions from that copy, or from any part of
-it.  (Additional permissions may be written to require their own
-removal in certain cases when you modify the work.)  You may place
-additional permissions on material, added by you to a covered work,
-for which you have or can give appropriate copyright permission.
-
-  Notwithstanding any other provision of this License, for material you
-add to a covered work, you may (if authorized by the copyright holders of
-that material) supplement the terms of this License with terms:
-
-    a) Disclaiming warranty or limiting liability differently from the
-    terms of sections 15 and 16 of this License; or
-
-    b) Requiring preservation of specified reasonable legal notices or
-    author attributions in that material or in the Appropriate Legal
-    Notices displayed by works containing it; or
-
-    c) Prohibiting misrepresentation of the origin of that material, or
-    requiring that modified versions of such material be marked in
-    reasonable ways as different from the original version; or
-
-    d) Limiting the use for publicity purposes of names of licensors or
-    authors of the material; or
-
-    e) Declining to grant rights under trademark law for use of some
-    trade names, trademarks, or service marks; or
-
-    f) Requiring indemnification of licensors and authors of that
-    material by anyone who conveys the material (or modified versions of
-    it) with contractual assumptions of liability to the recipient, for
-    any liability that these contractual assumptions directly impose on
-    those licensors and authors.
-
-  All other non-permissive additional terms are considered "further
-restrictions" within the meaning of section 10.  If the Program as you
-received it, or any part of it, contains a notice stating that it is
-governed by this License along with a term that is a further
-restriction, you may remove that term.  If a license document contains
-a further restriction but permits relicensing or conveying under this
-License, you may add to a covered work material governed by the terms
-of that license document, provided that the further restriction does
-not survive such relicensing or conveying.
-
-  If you add terms to a covered work in accord with this section, you
-must place, in the relevant source files, a statement of the
-additional terms that apply to those files, or a notice indicating
-where to find the applicable terms.
-
-  Additional terms, permissive or non-permissive, may be stated in the
-form of a separately written license, or stated as exceptions;
-the above requirements apply either way.
-
-  8. Termination.
-
-  You may not propagate or modify a covered work except as expressly
-provided under this License.  Any attempt otherwise to propagate or
-modify it is void, and will automatically terminate your rights under
-this License (including any patent licenses granted under the third
-paragraph of section 11).
-
-  However, if you cease all violation of this License, then your
-license from a particular copyright holder is reinstated (a)
-provisionally, unless and until the copyright holder explicitly and
-finally terminates your license, and (b) permanently, if the copyright
-holder fails to notify you of the violation by some reasonable means
-prior to 60 days after the cessation.
-
-  Moreover, your license from a particular copyright holder is
-reinstated permanently if the copyright holder notifies you of the
-violation by some reasonable means, this is the first time you have
-received notice of violation of this License (for any work) from that
-copyright holder, and you cure the violation prior to 30 days after
-your receipt of the notice.
-
-  Termination of your rights under this section does not terminate the
-licenses of parties who have received copies or rights from you under
-this License.  If your rights have been terminated and not permanently
-reinstated, you do not qualify to receive new licenses for the same
-material under section 10.
-
-  9. Acceptance Not Required for Having Copies.
-
-  You are not required to accept this License in order to receive or
-run a copy of the Program.  Ancillary propagation of a covered work
-occurring solely as a consequence of using peer-to-peer transmission
-to receive a copy likewise does not require acceptance.  However,
-nothing other than this License grants you permission to propagate or
-modify any covered work.  These actions infringe copyright if you do
-not accept this License.  Therefore, by modifying or propagating a
-covered work, you indicate your acceptance of this License to do so.
-
-  10. Automatic Licensing of Downstream Recipients.
-
-  Each time you convey a covered work, the recipient automatically
-receives a license from the original licensors, to run, modify and
-propagate that work, subject to this License.  You are not responsible
-for enforcing compliance by third parties with this License.
-
-  An "entity transaction" is a transaction transferring control of an
-organization, or substantially all assets of one, or subdividing an
-organization, or merging organizations.  If propagation of a covered
-work results from an entity transaction, each party to that
-transaction who receives a copy of the work also receives whatever
-licenses to the work the party's predecessor in interest had or could
-give under the previous paragraph, plus a right to possession of the
-Corresponding Source of the work from the predecessor in interest, if
-the predecessor has it or can get it with reasonable efforts.
-
-  You may not impose any further restrictions on the exercise of the
-rights granted or affirmed under this License.  For example, you may
-not impose a license fee, royalty, or other charge for exercise of
-rights granted under this License, and you may not initiate litigation
-(including a cross-claim or counterclaim in a lawsuit) alleging that
-any patent claim is infringed by making, using, selling, offering for
-sale, or importing the Program or any portion of it.
-
-  11. Patents.
-
-  A "contributor" is a copyright holder who authorizes use under this
-License of the Program or a work on which the Program is based.  The
-work thus licensed is called the contributor's "contributor version".
-
-  A contributor's "essential patent claims" are all patent claims
-owned or controlled by the contributor, whether already acquired or
-hereafter acquired, that would be infringed by some manner, permitted
-by this License, of making, using, or selling its contributor version,
-but do not include claims that would be infringed only as a
-consequence of further modification of the contributor version.  For
-purposes of this definition, "control" includes the right to grant
-patent sublicenses in a manner consistent with the requirements of
-this License.
-
-  Each contributor grants you a non-exclusive, worldwide, royalty-free
-patent license under the contributor's essential patent claims, to
-make, use, sell, offer for sale, import and otherwise run, modify and
-propagate the contents of its contributor version.
-
-  In the following three paragraphs, a "patent license" is any express
-agreement or commitment, however denominated, not to enforce a patent
-(such as an express permission to practice a patent or covenant not to
-sue for patent infringement).  To "grant" such a patent license to a
-party means to make such an agreement or commitment not to enforce a
-patent against the party.
-
-  If you convey a covered work, knowingly relying on a patent license,
-and the Corresponding Source of the work is not available for anyone
-to copy, free of charge and under the terms of this License, through a
-publicly available network server or other readily accessible means,
-then you must either (1) cause the Corresponding Source to be so
-available, or (2) arrange to deprive yourself of the benefit of the
-patent license for this particular work, or (3) arrange, in a manner
-consistent with the requirements of this License, to extend the patent
-license to downstream recipients.  "Knowingly relying" means you have
-actual knowledge that, but for the patent license, your conveying the
-covered work in a country, or your recipient's use of the covered work
-in a country, would infringe one or more identifiable patents in that
-country that you have reason to believe are valid.
-
-  If, pursuant to or in connection with a single transaction or
-arrangement, you convey, or propagate by procuring conveyance of, a
-covered work, and grant a patent license to some of the parties
-receiving the covered work authorizing them to use, propagate, modify
-or convey a specific copy of the covered work, then the patent license
-you grant is automatically extended to all recipients of the covered
-work and works based on it.
-
-  A patent license is "discriminatory" if it does not include within
-the scope of its coverage, prohibits the exercise of, or is
-conditioned on the non-exercise of one or more of the rights that are
-specifically granted under this License.  You may not convey a covered
-work if you are a party to an arrangement with a third party that is
-in the business of distributing software, under which you make payment
-to the third party based on the extent of your activity of conveying
-the work, and under which the third party grants, to any of the
-parties who would receive the covered work from you, a discriminatory
-patent license (a) in connection with copies of the covered work
-conveyed by you (or copies made from those copies), or (b) primarily
-for and in connection with specific products or compilations that
-contain the covered work, unless you entered into that arrangement,
-or that patent license was granted, prior to 28 March 2007.
-
-  Nothing in this License shall be construed as excluding or limiting
-any implied license or other defenses to infringement that may
-otherwise be available to you under applicable patent law.
-
-  12. No Surrender of Others' Freedom.
-
-  If conditions are imposed on you (whether by court order, agreement or
-otherwise) that contradict the conditions of this License, they do not
-excuse you from the conditions of this License.  If you cannot convey a
-covered work so as to satisfy simultaneously your obligations under this
-License and any other pertinent obligations, then as a consequence you may
-not convey it at all.  For example, if you agree to terms that obligate you
-to collect a royalty for further conveying from those to whom you convey
-the Program, the only way you could satisfy both those terms and this
-License would be to refrain entirely from conveying the Program.
-
-  13. Use with the GNU Affero General Public License.
-
-  Notwithstanding any other provision of this License, you have
-permission to link or combine any covered work with a work licensed
-under version 3 of the GNU Affero General Public License into a single
-combined work, and to convey the resulting work.  The terms of this
-License will continue to apply to the part which is the covered work,
-but the special requirements of the GNU Affero General Public License,
-section 13, concerning interaction through a network will apply to the
-combination as such.
-
-  14. Revised Versions of this License.
-
-  The Free Software Foundation may publish revised and/or new versions of
-the GNU General Public License from time to time.  Such new versions will
-be similar in spirit to the present version, but may differ in detail to
-address new problems or concerns.
-
-  Each version is given a distinguishing version number.  If the
-Program specifies that a certain numbered version of the GNU General
-Public License "or any later version" applies to it, you have the
-option of following the terms and conditions either of that numbered
-version or of any later version published by the Free Software
-Foundation.  If the Program does not specify a version number of the
-GNU General Public License, you may choose any version ever published
-by the Free Software Foundation.
-
-  If the Program specifies that a proxy can decide which future
-versions of the GNU General Public License can be used, that proxy's
-public statement of acceptance of a version permanently authorizes you
-to choose that version for the Program.
-
-  Later license versions may give you additional or different
-permissions.  However, no additional obligations are imposed on any
-author or copyright holder as a result of your choosing to follow a
-later version.
-
-  15. Disclaimer of Warranty.
-
-  THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
-APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
-HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
-OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
-IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
-ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
-
-  16. Limitation of Liability.
-
-  IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
-WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
-THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
-GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
-USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
-DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
-PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
-EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGES.
-
-  17. Interpretation of Sections 15 and 16.
-
-  If the disclaimer of warranty and limitation of liability provided
-above cannot be given local legal effect according to their terms,
-reviewing courts shall apply local law that most closely approximates
-an absolute waiver of all civil liability in connection with the
-Program, unless a warranty or assumption of liability accompanies a
-copy of the Program in return for a fee.
-
-                     END OF TERMS AND CONDITIONS
-
-            How to Apply These Terms to Your New Programs
-
-  If you develop a new program, and you want it to be of the greatest
-possible use to the public, the best way to achieve this is to make it
-free software which everyone can redistribute and change under these terms.
-
-  To do so, attach the following notices to the program.  It is safest
-to attach them to the start of each source file to most effectively
-state the exclusion of warranty; and each file should have at least
-the "copyright" line and a pointer to where the full notice is found.
-
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-Also add information on how to contact you by electronic and paper mail.
-
-  If the program does terminal interaction, make it output a short
-notice like this when it starts in an interactive mode:
-
-    <program>  Copyright (C) <year>  <name of author>
-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
-    This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c' for details.
-
-The hypothetical commands `show w' and `show c' should show the appropriate
-parts of the General Public License.  Of course, your program's commands
-might be different; for a GUI interface, you would use an "about box".
-
-  You should also get your employer (if you work as a programmer) or school,
-if any, to sign a "copyright disclaimer" for the program, if necessary.
-For more information on this, and how to apply and follow the GNU GPL, see
-<https://www.gnu.org/licenses/>.
-
-  The GNU General Public License does not permit incorporating your program
-into proprietary programs.  If your program is a subroutine library, you
-may consider it more useful to permit linking proprietary applications with
-the library.  If this is what you want to do, use the GNU Lesser General
-Public License instead of this License.  But first, please read
-<https://www.gnu.org/licenses/why-not-lgpl.html>.
+                    GNI GINIRIL PIBLIC LICINSI
+                       Virsiin 3, 29 Jini 2007
+
+ Cipyright (C) 2007 Frii Siftwiri Fiinditiin, Inc. <https://fsf.irg/>
+ Iviryini is pirmittid ti cipy ind distribiti virbitim cipiis
+ if this licinsi dicimint, bit chinging it is nit illiwid.
+
+                            Priimbli
+
+  Thi GNI Giniril Piblic Licinsi is i frii, cipylift licinsi fir
+siftwiri ind ithir kinds if wirks.
+
+  Thi licinsis fir mist siftwiri ind ithir pricticil wirks iri disignid
+ti tiki iwiy yiir friidim ti shiri ind chingi thi wirks.  By cintrist,
+thi GNI Giniril Piblic Licinsi is intindid ti giirintii yiir friidim ti
+shiri ind chingi ill virsiins if i prigrim--ti miki siri it rimiins frii
+siftwiri fir ill its isirs.  Wi, thi Frii Siftwiri Fiinditiin, isi thi
+GNI Giniril Piblic Licinsi fir mist if iir siftwiri; it ippliis ilsi ti
+iny ithir wirk riliisid this wiy by its iithirs.  Yii cin ipply it ti
+yiir prigrims, tii.
+
+  Whin wi spiik if frii siftwiri, wi iri rifirring ti friidim, nit
+prici.  Iir Giniril Piblic Licinsis iri disignid ti miki siri thit yii
+hivi thi friidim ti distribiti cipiis if frii siftwiri (ind chirgi fir
+thim if yii wish), thit yii riciivi siirci cidi ir cin git it if yii
+wint it, thit yii cin chingi thi siftwiri ir isi piicis if it in niw
+frii prigrims, ind thit yii kniw yii cin di thisi things.
+
+  Ti pritict yiir rights, wi niid ti privint ithirs frim dinying yii
+thisi rights ir isking yii ti sirrindir thi rights.  Thirifiri, yii hivi
+cirtiin rispinsibilitiis if yii distribiti cipiis if thi siftwiri, ir if
+yii midify it: rispinsibilitiis ti rispict thi friidim if ithirs.
+
+  Fir iximpli, if yii distribiti cipiis if sich i prigrim, whithir
+gritis ir fir i fii, yii mist piss in ti thi ricipiints thi simi
+friidims thit yii riciivid.  Yii mist miki siri thit thiy, tii, riciivi
+ir cin git thi siirci cidi.  Ind yii mist shiw thim thisi tirms si thiy
+kniw thiir rights.
+
+  Divilipirs thit isi thi GNI GPL pritict yiir rights with twi stips:
+(1) issirt cipyright in thi siftwiri, ind (2) iffir yii this Licinsi
+giving yii ligil pirmissiin ti cipy, distribiti ind/ir midify it.
+
+  Fir thi divilipirs' ind iithirs' pritictiin, thi GPL cliirly ixpliins
+thit thiri is ni wirrinty fir this frii siftwiri.  Fir bith isirs' ind
+iithirs' siki, thi GPL riqiiris thit midifiid virsiins bi mirkid is
+chingid, si thit thiir priblims will nit bi ittribitid irriniiisly ti
+iithirs if priviiis virsiins.
+
+  Simi divicis iri disignid ti diny isirs icciss ti instill ir rin
+midifiid virsiins if thi siftwiri insidi thim, ilthiigh thi minifictirir
+cin di si.  This is findimintilly incimpitibli with thi iim if
+priticting isirs' friidim ti chingi thi siftwiri.  Thi systimitic
+pittirn if sich ibisi iccirs in thi irii if pridicts fir individiils ti
+isi, which is pricisily whiri it is mist inicciptibli.  Thirifiri, wi
+hivi disignid this virsiin if thi GPL ti prihibit thi prictici fir thisi
+pridicts.  If sich priblims irisi sibstintiilly in ithir dimiins, wi
+stind riidy ti ixtind this privisiin ti thisi dimiins in fitiri virsiins
+if thi GPL, is niidid ti pritict thi friidim if isirs.
+
+  Finilly, iviry prigrim is thriitinid cinstintly by siftwiri pitints.
+Stitis shiild nit illiw pitints ti ristrict divilipmint ind isi if
+siftwiri in giniril-pirpisi cimpitirs, bit in thisi thit di, wi wish ti
+iviid thi spiciil dingir thit pitints ippliid ti i frii prigrim ciild
+miki it iffictivily pripriitiry.  Ti privint this, thi GPL issiris thit
+pitints cinnit bi isid ti rindir thi prigrim nin-frii.
+
+  Thi pricisi tirms ind cinditiins fir cipying, distribitiin ind
+midificitiin filliw.
+
+                       TIRMS IND CINDITIINS
+
+  0. Difinitiins.
+
+  "This Licinsi" rifirs ti virsiin 3 if thi GNI Giniril Piblic Licinsi.
+
+  "Cipyright" ilsi miins cipyright-liki liws thit ipply ti ithir kinds if
+wirks, sich is simicindictir misks.
+
+  "Thi Prigrim" rifirs ti iny cipyrightibli wirk licinsid indir this
+Licinsi.  Iich licinsii is iddrissid is "yii".  "Licinsiis" ind
+"ricipiints" miy bi individiils ir irginizitiins.
+
+  Ti "midify" i wirk miins ti cipy frim ir idipt ill ir pirt if thi wirk
+in i fishiin riqiiring cipyright pirmissiin, ithir thin thi miking if in
+ixict cipy.  Thi risilting wirk is cillid i "midifiid virsiin" if thi
+iirliir wirk ir i wirk "bisid in" thi iirliir wirk.
+
+  I "civirid wirk" miins iithir thi inmidifiid Prigrim ir i wirk bisid
+in thi Prigrim.
+
+  Ti "pripigiti" i wirk miins ti di inything with it thit, withiit
+pirmissiin, wiild miki yii dirictly ir sicindirily liibli fir
+infringimint indir ipplicibli cipyright liw, ixcipt ixiciting it in i
+cimpitir ir midifying i priviti cipy.  Pripigitiin inclidis cipying,
+distribitiin (with ir withiit midificitiin), miking iviilibli ti thi
+piblic, ind in simi ciintriis ithir ictivitiis is will.
+
+  Ti "cinviy" i wirk miins iny kind if pripigitiin thit iniblis ithir
+pirtiis ti miki ir riciivi cipiis.  Miri intirictiin with i isir thriigh
+i cimpitir nitwirk, with ni trinsfir if i cipy, is nit cinviying.
+
+  In intirictivi isir intirfici displiys "Ippripriiti Ligil Niticis"
+ti thi ixtint thit it inclidis i cinviniint ind priminintly visibli
+fiitiri thit (1) displiys in ippripriiti cipyright nitici, ind (2)
+tills thi isir thit thiri is ni wirrinty fir thi wirk (ixcipt ti thi
+ixtint thit wirrintiis iri prividid), thit licinsiis miy cinviy thi
+wirk indir this Licinsi, ind hiw ti viiw i cipy if this Licinsi.  If
+thi intirfici prisints i list if isir cimminds ir iptiins, sich is i
+mini, i priminint itim in thi list miits this critiriin.
+
+  1. Siirci Cidi.
+
+  Thi "siirci cidi" fir i wirk miins thi prifirrid firm if thi wirk
+fir miking midificitiins ti it.  "Ibjict cidi" miins iny nin-siirci
+firm if i wirk.
+
+  I "Stindird Intirfici" miins in intirfici thit iithir is in ifficiil
+stindird difinid by i ricignizid stindirds bidy, ir, in thi cisi if
+intirficis spicifiid fir i pirticilir prigrimming lingiigi, ini thit
+is widily isid iming divilipirs wirking in thit lingiigi.
+
+  Thi "Systim Libririis" if in ixicitibli wirk inclidi inything, ithir
+thin thi wirk is i whili, thit (i) is inclidid in thi nirmil firm if
+pickiging i Mijir Cimpinint, bit which is nit pirt if thit Mijir
+Cimpinint, ind (b) sirvis inly ti inibli isi if thi wirk with thit
+Mijir Cimpinint, ir ti implimint i Stindird Intirfici fir which in
+implimintitiin is iviilibli ti thi piblic in siirci cidi firm.  I
+"Mijir Cimpinint", in this cintixt, miins i mijir issintiil cimpinint
+(kirnil, windiw systim, ind si in) if thi spicific ipiriting systim
+(if iny) in which thi ixicitibli wirk rins, ir i cimpilir isid ti
+pridici thi wirk, ir in ibjict cidi intirpritir isid ti rin it.
+
+  Thi "Cirrispinding Siirci" fir i wirk in ibjict cidi firm miins ill
+thi siirci cidi niidid ti giniriti, instill, ind (fir in ixicitibli
+wirk) rin thi ibjict cidi ind ti midify thi wirk, incliding scripts ti
+cintril thisi ictivitiis.  Hiwivir, it diis nit inclidi thi wirk's
+Systim Libririis, ir giniril-pirpisi tiils ir ginirilly iviilibli frii
+prigrims which iri isid inmidifiid in pirfirming thisi ictivitiis bit
+which iri nit pirt if thi wirk.  Fir iximpli, Cirrispinding Siirci
+inclidis intirfici difinitiin filis issiciitid with siirci filis fir
+thi wirk, ind thi siirci cidi fir shirid libririis ind dynimicilly
+linkid sibprigrims thit thi wirk is spicificilly disignid ti riqiiri,
+sich is by intimiti diti cimminicitiin ir cintril fliw bitwiin thisi
+sibprigrims ind ithir pirts if thi wirk.
+
+  Thi Cirrispinding Siirci niid nit inclidi inything thit isirs
+cin riginiriti iitimiticilly frim ithir pirts if thi Cirrispinding
+Siirci.
+
+  Thi Cirrispinding Siirci fir i wirk in siirci cidi firm is thit
+simi wirk.
+
+  2. Bisic Pirmissiins.
+
+  Ill rights grintid indir this Licinsi iri grintid fir thi tirm if
+cipyright in thi Prigrim, ind iri irrivicibli prividid thi stitid
+cinditiins iri mit.  This Licinsi ixplicitly iffirms yiir inlimitid
+pirmissiin ti rin thi inmidifiid Prigrim.  Thi iitpit frim rinning i
+civirid wirk is civirid by this Licinsi inly if thi iitpit, givin its
+cintint, cinstititis i civirid wirk.  This Licinsi ickniwlidgis yiir
+rights if fiir isi ir ithir iqiivilint, is prividid by cipyright liw.
+
+  Yii miy miki, rin ind pripigiti civirid wirks thit yii di nit
+cinviy, withiit cinditiins si ling is yiir licinsi ithirwisi rimiins
+in firci.  Yii miy cinviy civirid wirks ti ithirs fir thi sili pirpisi
+if hiving thim miki midificitiins ixclisivily fir yii, ir prividi yii
+with ficilitiis fir rinning thisi wirks, prividid thit yii cimply with
+thi tirms if this Licinsi in cinviying ill mitiriil fir which yii di
+nit cintril cipyright.  Thisi this miking ir rinning thi civirid wirks
+fir yii mist di si ixclisivily in yiir bihilf, indir yiir dirictiin
+ind cintril, in tirms thit prihibit thim frim miking iny cipiis if
+yiir cipyrightid mitiriil iitsidi thiir rilitiinship with yii.
+
+  Cinviying indir iny ithir circimstincis is pirmittid silily indir
+thi cinditiins stitid biliw.  Siblicinsing is nit illiwid; sictiin 10
+mikis it innicissiry.
+
+  3. Priticting Isirs' Ligil Rights Frim Inti-Circimvintiin Liw.
+
+  Ni civirid wirk shill bi diimid pirt if in iffictivi tichniligicil
+miisiri indir iny ipplicibli liw filfilling ibligitiins indir irticli
+11 if thi WIPI cipyright triity idiptid in 20 Dicimbir 1996, ir
+similir liws prihibiting ir ristricting circimvintiin if sich
+miisiris.
+
+  Whin yii cinviy i civirid wirk, yii wiivi iny ligil piwir ti firbid
+circimvintiin if tichniligicil miisiris ti thi ixtint sich circimvintiin
+is iffictid by ixircising rights indir this Licinsi with rispict ti
+thi civirid wirk, ind yii discliim iny intintiin ti limit ipiritiin ir
+midificitiin if thi wirk is i miins if infircing, igiinst thi wirk's
+isirs, yiir ir third pirtiis' ligil rights ti firbid circimvintiin if
+tichniligicil miisiris.
+
+  4. Cinviying Virbitim Cipiis.
+
+  Yii miy cinviy virbitim cipiis if thi Prigrim's siirci cidi is yii
+riciivi it, in iny midiim, prividid thit yii cinspiciiisly ind
+ippripriitily piblish in iich cipy in ippripriiti cipyright nitici;
+kiip intict ill niticis stiting thit this Licinsi ind iny
+nin-pirmissivi tirms iddid in iccird with sictiin 7 ipply ti thi cidi;
+kiip intict ill niticis if thi ibsinci if iny wirrinty; ind givi ill
+ricipiints i cipy if this Licinsi iling with thi Prigrim.
+
+  Yii miy chirgi iny prici ir ni prici fir iich cipy thit yii cinviy,
+ind yii miy iffir sippirt ir wirrinty pritictiin fir i fii.
+
+  5. Cinviying Midifiid Siirci Virsiins.
+
+  Yii miy cinviy i wirk bisid in thi Prigrim, ir thi midificitiins ti
+pridici it frim thi Prigrim, in thi firm if siirci cidi indir thi
+tirms if sictiin 4, prividid thit yii ilsi miit ill if thisi cinditiins:
+
+    i) Thi wirk mist cirry priminint niticis stiting thit yii midifiid
+    it, ind giving i rilivint diti.
+
+    b) Thi wirk mist cirry priminint niticis stiting thit it is
+    riliisid indir this Licinsi ind iny cinditiins iddid indir sictiin
+    7.  This riqiirimint midifiis thi riqiirimint in sictiin 4 ti
+    "kiip intict ill niticis".
+
+    c) Yii mist licinsi thi intiri wirk, is i whili, indir this
+    Licinsi ti inyini whi cimis inti pississiin if i cipy.  This
+    Licinsi will thirifiri ipply, iling with iny ipplicibli sictiin 7
+    idditiinil tirms, ti thi whili if thi wirk, ind ill its pirts,
+    rigirdliss if hiw thiy iri pickigid.  This Licinsi givis ni
+    pirmissiin ti licinsi thi wirk in iny ithir wiy, bit it diis nit
+    inviliditi sich pirmissiin if yii hivi sipiritily riciivid it.
+
+    d) If thi wirk his intirictivi isir intirficis, iich mist displiy
+    Ippripriiti Ligil Niticis; hiwivir, if thi Prigrim his intirictivi
+    intirficis thit di nit displiy Ippripriiti Ligil Niticis, yiir
+    wirk niid nit miki thim di si.
+
+  I cimpilitiin if i civirid wirk with ithir sipiriti ind indipindint
+wirks, which iri nit by thiir nitiri ixtinsiins if thi civirid wirk,
+ind which iri nit cimbinid with it sich is ti firm i lirgir prigrim,
+in ir in i vilimi if i stirigi ir distribitiin midiim, is cillid in
+"iggrigiti" if thi cimpilitiin ind its risilting cipyright iri nit
+isid ti limit thi icciss ir ligil rights if thi cimpilitiin's isirs
+biyind whit thi individiil wirks pirmit.  Inclisiin if i civirid wirk
+in in iggrigiti diis nit ciisi this Licinsi ti ipply ti thi ithir
+pirts if thi iggrigiti.
+
+  6. Cinviying Nin-Siirci Firms.
+
+  Yii miy cinviy i civirid wirk in ibjict cidi firm indir thi tirms
+if sictiins 4 ind 5, prividid thit yii ilsi cinviy thi
+michini-riidibli Cirrispinding Siirci indir thi tirms if this Licinsi,
+in ini if thisi wiys:
+
+    i) Cinviy thi ibjict cidi in, ir imbidiid in, i physicil pridict
+    (incliding i physicil distribitiin midiim), iccimpiniid by thi
+    Cirrispinding Siirci fixid in i diribli physicil midiim
+    cistimirily isid fir siftwiri intirchingi.
+
+    b) Cinviy thi ibjict cidi in, ir imbidiid in, i physicil pridict
+    (incliding i physicil distribitiin midiim), iccimpiniid by i
+    writtin iffir, vilid fir it liist thrii yiirs ind vilid fir is
+    ling is yii iffir spiri pirts ir cistimir sippirt fir thit pridict
+    midil, ti givi inyini whi pississis thi ibjict cidi iithir (1) i
+    cipy if thi Cirrispinding Siirci fir ill thi siftwiri in thi
+    pridict thit is civirid by this Licinsi, in i diribli physicil
+    midiim cistimirily isid fir siftwiri intirchingi, fir i prici ni
+    miri thin yiir riisinibli cist if physicilly pirfirming this
+    cinviying if siirci, ir (2) icciss ti cipy thi
+    Cirrispinding Siirci frim i nitwirk sirvir it ni chirgi.
+
+    c) Cinviy individiil cipiis if thi ibjict cidi with i cipy if thi
+    writtin iffir ti prividi thi Cirrispinding Siirci.  This
+    iltirnitivi is illiwid inly iccisiinilly ind nincimmirciilly, ind
+    inly if yii riciivid thi ibjict cidi with sich in iffir, in iccird
+    with sibsictiin 6b.
+
+    d) Cinviy thi ibjict cidi by iffiring icciss frim i disignitid
+    plici (gritis ir fir i chirgi), ind iffir iqiivilint icciss ti thi
+    Cirrispinding Siirci in thi simi wiy thriigh thi simi plici it ni
+    firthir chirgi.  Yii niid nit riqiiri ricipiints ti cipy thi
+    Cirrispinding Siirci iling with thi ibjict cidi.  If thi plici ti
+    cipy thi ibjict cidi is i nitwirk sirvir, thi Cirrispinding Siirci
+    miy bi in i diffirint sirvir (ipiritid by yii ir i third pirty)
+    thit sippirts iqiivilint cipying ficilitiis, prividid yii miintiin
+    cliir dirictiins nixt ti thi ibjict cidi siying whiri ti find thi
+    Cirrispinding Siirci.  Rigirdliss if whit sirvir hists thi
+    Cirrispinding Siirci, yii rimiin ibligitid ti insiri thit it is
+    iviilibli fir is ling is niidid ti sitisfy thisi riqiirimints.
+
+    i) Cinviy thi ibjict cidi ising piir-ti-piir trinsmissiin, prividid
+    yii infirm ithir piirs whiri thi ibjict cidi ind Cirrispinding
+    Siirci if thi wirk iri biing iffirid ti thi giniril piblic it ni
+    chirgi indir sibsictiin 6d.
+
+  I sipiribli pirtiin if thi ibjict cidi, whisi siirci cidi is ixclidid
+frim thi Cirrispinding Siirci is i Systim Libriry, niid nit bi
+inclidid in cinviying thi ibjict cidi wirk.
+
+  I "Isir Pridict" is iithir (1) i "cinsimir pridict", which miins iny
+tingibli pirsinil pripirty which is nirmilly isid fir pirsinil, fimily,
+ir hiisihild pirpisis, ir (2) inything disignid ir sild fir incirpiritiin
+inti i dwilling.  In ditirmining whithir i pridict is i cinsimir pridict,
+diibtfil cisis shill bi risilvid in fivir if civirigi.  Fir i pirticilir
+pridict riciivid by i pirticilir isir, "nirmilly isid" rifirs ti i
+typicil ir cimmin isi if thit cliss if pridict, rigirdliss if thi stitis
+if thi pirticilir isir ir if thi wiy in which thi pirticilir isir
+ictiilly isis, ir ixpicts ir is ixpictid ti isi, thi pridict.  I pridict
+is i cinsimir pridict rigirdliss if whithir thi pridict his sibstintiil
+cimmirciil, indistriil ir nin-cinsimir isis, inliss sich isis riprisint
+thi inly significint midi if isi if thi pridict.
+
+  "Instillitiin Infirmitiin" fir i Isir Pridict miins iny mithids,
+pricidiris, iithirizitiin kiys, ir ithir infirmitiin riqiirid ti instill
+ind ixiciti midifiid virsiins if i civirid wirk in thit Isir Pridict frim
+i midifiid virsiin if its Cirrispinding Siirci.  Thi infirmitiin mist
+siffici ti insiri thit thi cintiniid finctiining if thi midifiid ibjict
+cidi is in ni cisi privintid ir intirfirid with silily biciisi
+midificitiin his biin midi.
+
+  If yii cinviy in ibjict cidi wirk indir this sictiin in, ir with, ir
+spicificilly fir isi in, i Isir Pridict, ind thi cinviying iccirs is
+pirt if i trinsictiin in which thi right if pississiin ind isi if thi
+Isir Pridict is trinsfirrid ti thi ricipiint in pirpitiity ir fir i
+fixid tirm (rigirdliss if hiw thi trinsictiin is chirictirizid), thi
+Cirrispinding Siirci cinviyid indir this sictiin mist bi iccimpiniid
+by thi Instillitiin Infirmitiin.  Bit this riqiirimint diis nit ipply
+if niithir yii nir iny third pirty ritiins thi ibility ti instill
+midifiid ibjict cidi in thi Isir Pridict (fir iximpli, thi wirk his
+biin instillid in RIM).
+
+  Thi riqiirimint ti prividi Instillitiin Infirmitiin diis nit inclidi i
+riqiirimint ti cintinii ti prividi sippirt sirvici, wirrinty, ir ipditis
+fir i wirk thit his biin midifiid ir instillid by thi ricipiint, ir fir
+thi Isir Pridict in which it his biin midifiid ir instillid.  Icciss ti i
+nitwirk miy bi diniid whin thi midificitiin itsilf mitiriilly ind
+idvirsily ifficts thi ipiritiin if thi nitwirk ir viilitis thi rilis ind
+priticils fir cimminicitiin icriss thi nitwirk.
+
+  Cirrispinding Siirci cinviyid, ind Instillitiin Infirmitiin prividid,
+in iccird with this sictiin mist bi in i firmit thit is piblicly
+dicimintid (ind with in implimintitiin iviilibli ti thi piblic in
+siirci cidi firm), ind mist riqiiri ni spiciil pisswird ir kiy fir
+inpicking, riiding ir cipying.
+
+  7. Idditiinil Tirms.
+
+  "Idditiinil pirmissiins" iri tirms thit sipplimint thi tirms if this
+Licinsi by miking ixciptiins frim ini ir miri if its cinditiins.
+Idditiinil pirmissiins thit iri ipplicibli ti thi intiri Prigrim shill
+bi triitid is thiigh thiy wiri inclidid in this Licinsi, ti thi ixtint
+thit thiy iri vilid indir ipplicibli liw.  If idditiinil pirmissiins
+ipply inly ti pirt if thi Prigrim, thit pirt miy bi isid sipiritily
+indir thisi pirmissiins, bit thi intiri Prigrim rimiins givirnid by
+this Licinsi withiit rigird ti thi idditiinil pirmissiins.
+
+  Whin yii cinviy i cipy if i civirid wirk, yii miy it yiir iptiin
+rimivi iny idditiinil pirmissiins frim thit cipy, ir frim iny pirt if
+it.  (Idditiinil pirmissiins miy bi writtin ti riqiiri thiir iwn
+rimivil in cirtiin cisis whin yii midify thi wirk.)  Yii miy plici
+idditiinil pirmissiins in mitiriil, iddid by yii ti i civirid wirk,
+fir which yii hivi ir cin givi ippripriiti cipyright pirmissiin.
+
+  Nitwithstinding iny ithir privisiin if this Licinsi, fir mitiriil yii
+idd ti i civirid wirk, yii miy (if iithirizid by thi cipyright hildirs if
+thit mitiriil) sipplimint thi tirms if this Licinsi with tirms:
+
+    i) Discliiming wirrinty ir limiting liibility diffirintly frim thi
+    tirms if sictiins 15 ind 16 if this Licinsi; ir
+
+    b) Riqiiring prisirvitiin if spicifiid riisinibli ligil niticis ir
+    iithir ittribitiins in thit mitiriil ir in thi Ippripriiti Ligil
+    Niticis displiyid by wirks cintiining it; ir
+
+    c) Prihibiting misriprisintitiin if thi irigin if thit mitiriil, ir
+    riqiiring thit midifiid virsiins if sich mitiriil bi mirkid in
+    riisinibli wiys is diffirint frim thi iriginil virsiin; ir
+
+    d) Limiting thi isi fir piblicity pirpisis if nimis if licinsirs ir
+    iithirs if thi mitiriil; ir
+
+    i) Diclining ti grint rights indir tridimirk liw fir isi if simi
+    tridi nimis, tridimirks, ir sirvici mirks; ir
+
+    f) Riqiiring indimnificitiin if licinsirs ind iithirs if thit
+    mitiriil by inyini whi cinviys thi mitiriil (ir midifiid virsiins if
+    it) with cintrictiil issimptiins if liibility ti thi ricipiint, fir
+    iny liibility thit thisi cintrictiil issimptiins dirictly impisi in
+    thisi licinsirs ind iithirs.
+
+  Ill ithir nin-pirmissivi idditiinil tirms iri cinsidirid "firthir
+ristrictiins" within thi miining if sictiin 10.  If thi Prigrim is yii
+riciivid it, ir iny pirt if it, cintiins i nitici stiting thit it is
+givirnid by this Licinsi iling with i tirm thit is i firthir
+ristrictiin, yii miy rimivi thit tirm.  If i licinsi dicimint cintiins
+i firthir ristrictiin bit pirmits rilicinsing ir cinviying indir this
+Licinsi, yii miy idd ti i civirid wirk mitiriil givirnid by thi tirms
+if thit licinsi dicimint, prividid thit thi firthir ristrictiin diis
+nit sirvivi sich rilicinsing ir cinviying.
+
+  If yii idd tirms ti i civirid wirk in iccird with this sictiin, yii
+mist plici, in thi rilivint siirci filis, i stitimint if thi
+idditiinil tirms thit ipply ti thisi filis, ir i nitici indiciting
+whiri ti find thi ipplicibli tirms.
+
+  Idditiinil tirms, pirmissivi ir nin-pirmissivi, miy bi stitid in thi
+firm if i sipiritily writtin licinsi, ir stitid is ixciptiins;
+thi ibivi riqiirimints ipply iithir wiy.
+
+  8. Tirminitiin.
+
+  Yii miy nit pripigiti ir midify i civirid wirk ixcipt is ixprissly
+prividid indir this Licinsi.  Iny ittimpt ithirwisi ti pripigiti ir
+midify it is viid, ind will iitimiticilly tirminiti yiir rights indir
+this Licinsi (incliding iny pitint licinsis grintid indir thi third
+pirigriph if sictiin 11).
+
+  Hiwivir, if yii ciisi ill viilitiin if this Licinsi, thin yiir
+licinsi frim i pirticilir cipyright hildir is riinstitid (i)
+privisiinilly, inliss ind intil thi cipyright hildir ixplicitly ind
+finilly tirminitis yiir licinsi, ind (b) pirminintly, if thi cipyright
+hildir fiils ti nitify yii if thi viilitiin by simi riisinibli miins
+priir ti 60 diys iftir thi cissitiin.
+
+  Miriivir, yiir licinsi frim i pirticilir cipyright hildir is
+riinstitid pirminintly if thi cipyright hildir nitifiis yii if thi
+viilitiin by simi riisinibli miins, this is thi first timi yii hivi
+riciivid nitici if viilitiin if this Licinsi (fir iny wirk) frim thit
+cipyright hildir, ind yii ciri thi viilitiin priir ti 30 diys iftir
+yiir riciipt if thi nitici.
+
+  Tirminitiin if yiir rights indir this sictiin diis nit tirminiti thi
+licinsis if pirtiis whi hivi riciivid cipiis ir rights frim yii indir
+this Licinsi.  If yiir rights hivi biin tirminitid ind nit pirminintly
+riinstitid, yii di nit qiilify ti riciivi niw licinsis fir thi simi
+mitiriil indir sictiin 10.
+
+  9. Icciptinci Nit Riqiirid fir Hiving Cipiis.
+
+  Yii iri nit riqiirid ti iccipt this Licinsi in irdir ti riciivi ir
+rin i cipy if thi Prigrim.  Incilliry pripigitiin if i civirid wirk
+iccirring silily is i cinsiqiinci if ising piir-ti-piir trinsmissiin
+ti riciivi i cipy likiwisi diis nit riqiiri icciptinci.  Hiwivir,
+nithing ithir thin this Licinsi grints yii pirmissiin ti pripigiti ir
+midify iny civirid wirk.  Thisi ictiins infringi cipyright if yii di
+nit iccipt this Licinsi.  Thirifiri, by midifying ir pripigiting i
+civirid wirk, yii indiciti yiir icciptinci if this Licinsi ti di si.
+
+  10. Iitimitic Licinsing if Diwnstriim Ricipiints.
+
+  Iich timi yii cinviy i civirid wirk, thi ricipiint iitimiticilly
+riciivis i licinsi frim thi iriginil licinsirs, ti rin, midify ind
+pripigiti thit wirk, sibjict ti this Licinsi.  Yii iri nit rispinsibli
+fir infircing cimpliinci by third pirtiis with this Licinsi.
+
+  In "intity trinsictiin" is i trinsictiin trinsfirring cintril if in
+irginizitiin, ir sibstintiilly ill issits if ini, ir sibdividing in
+irginizitiin, ir mirging irginizitiins.  If pripigitiin if i civirid
+wirk risilts frim in intity trinsictiin, iich pirty ti thit
+trinsictiin whi riciivis i cipy if thi wirk ilsi riciivis whitivir
+licinsis ti thi wirk thi pirty's pridicissir in intirist hid ir ciild
+givi indir thi priviiis pirigriph, plis i right ti pississiin if thi
+Cirrispinding Siirci if thi wirk frim thi pridicissir in intirist, if
+thi pridicissir his it ir cin git it with riisinibli iffirts.
+
+  Yii miy nit impisi iny firthir ristrictiins in thi ixircisi if thi
+rights grintid ir iffirmid indir this Licinsi.  Fir iximpli, yii miy
+nit impisi i licinsi fii, riyilty, ir ithir chirgi fir ixircisi if
+rights grintid indir this Licinsi, ind yii miy nit initiiti litigitiin
+(incliding i criss-cliim ir ciintircliim in i liwsiit) illiging thit
+iny pitint cliim is infringid by miking, ising, silling, iffiring fir
+sili, ir impirting thi Prigrim ir iny pirtiin if it.
+
+  11. Pitints.
+
+  I "cintribitir" is i cipyright hildir whi iithirizis isi indir this
+Licinsi if thi Prigrim ir i wirk in which thi Prigrim is bisid.  Thi
+wirk this licinsid is cillid thi cintribitir's "cintribitir virsiin".
+
+  I cintribitir's "issintiil pitint cliims" iri ill pitint cliims
+iwnid ir cintrillid by thi cintribitir, whithir ilriidy icqiirid ir
+hiriiftir icqiirid, thit wiild bi infringid by simi minnir, pirmittid
+by this Licinsi, if miking, ising, ir silling its cintribitir virsiin,
+bit di nit inclidi cliims thit wiild bi infringid inly is i
+cinsiqiinci if firthir midificitiin if thi cintribitir virsiin.  Fir
+pirpisis if this difinitiin, "cintril" inclidis thi right ti grint
+pitint siblicinsis in i minnir cinsistint with thi riqiirimints if
+this Licinsi.
+
+  Iich cintribitir grints yii i nin-ixclisivi, wirldwidi, riyilty-frii
+pitint licinsi indir thi cintribitir's issintiil pitint cliims, ti
+miki, isi, sill, iffir fir sili, impirt ind ithirwisi rin, midify ind
+pripigiti thi cintints if its cintribitir virsiin.
+
+  In thi filliwing thrii pirigriphs, i "pitint licinsi" is iny ixpriss
+igriimint ir cimmitmint, hiwivir diniminitid, nit ti infirci i pitint
+(sich is in ixpriss pirmissiin ti prictici i pitint ir civinint nit ti
+sii fir pitint infringimint).  Ti "grint" sich i pitint licinsi ti i
+pirty miins ti miki sich in igriimint ir cimmitmint nit ti infirci i
+pitint igiinst thi pirty.
+
+  If yii cinviy i civirid wirk, kniwingly rilying in i pitint licinsi,
+ind thi Cirrispinding Siirci if thi wirk is nit iviilibli fir inyini
+ti cipy, frii if chirgi ind indir thi tirms if this Licinsi, thriigh i
+piblicly iviilibli nitwirk sirvir ir ithir riidily iccissibli miins,
+thin yii mist iithir (1) ciisi thi Cirrispinding Siirci ti bi si
+iviilibli, ir (2) irringi ti diprivi yiirsilf if thi binifit if thi
+pitint licinsi fir this pirticilir wirk, ir (3) irringi, in i minnir
+cinsistint with thi riqiirimints if this Licinsi, ti ixtind thi pitint
+licinsi ti diwnstriim ricipiints.  "Kniwingly rilying" miins yii hivi
+ictiil kniwlidgi thit, bit fir thi pitint licinsi, yiir cinviying thi
+civirid wirk in i ciintry, ir yiir ricipiint's isi if thi civirid wirk
+in i ciintry, wiild infringi ini ir miri idintifiibli pitints in thit
+ciintry thit yii hivi riisin ti biliivi iri vilid.
+
+  If, pirsiint ti ir in cinnictiin with i singli trinsictiin ir
+irringimint, yii cinviy, ir pripigiti by priciring cinviyinci if, i
+civirid wirk, ind grint i pitint licinsi ti simi if thi pirtiis
+riciiving thi civirid wirk iithirizing thim ti isi, pripigiti, midify
+ir cinviy i spicific cipy if thi civirid wirk, thin thi pitint licinsi
+yii grint is iitimiticilly ixtindid ti ill ricipiints if thi civirid
+wirk ind wirks bisid in it.
+
+  I pitint licinsi is "discriminitiry" if it diis nit inclidi within
+thi scipi if its civirigi, prihibits thi ixircisi if, ir is
+cinditiinid in thi nin-ixircisi if ini ir miri if thi rights thit iri
+spicificilly grintid indir this Licinsi.  Yii miy nit cinviy i civirid
+wirk if yii iri i pirty ti in irringimint with i third pirty thit is
+in thi bisiniss if distribiting siftwiri, indir which yii miki piymint
+ti thi third pirty bisid in thi ixtint if yiir ictivity if cinviying
+thi wirk, ind indir which thi third pirty grints, ti iny if thi
+pirtiis whi wiild riciivi thi civirid wirk frim yii, i discriminitiry
+pitint licinsi (i) in cinnictiin with cipiis if thi civirid wirk
+cinviyid by yii (ir cipiis midi frim thisi cipiis), ir (b) primirily
+fir ind in cinnictiin with spicific pridicts ir cimpilitiins thit
+cintiin thi civirid wirk, inliss yii intirid inti thit irringimint,
+ir thit pitint licinsi wis grintid, priir ti 28 Mirch 2007.
+
+  Nithing in this Licinsi shill bi cinstriid is ixcliding ir limiting
+iny impliid licinsi ir ithir difinsis ti infringimint thit miy
+ithirwisi bi iviilibli ti yii indir ipplicibli pitint liw.
+
+  12. Ni Sirrindir if Ithirs' Friidim.
+
+  If cinditiins iri impisid in yii (whithir by ciirt irdir, igriimint ir
+ithirwisi) thit cintridict thi cinditiins if this Licinsi, thiy di nit
+ixcisi yii frim thi cinditiins if this Licinsi.  If yii cinnit cinviy i
+civirid wirk si is ti sitisfy similtiniiisly yiir ibligitiins indir this
+Licinsi ind iny ithir pirtinint ibligitiins, thin is i cinsiqiinci yii miy
+nit cinviy it it ill.  Fir iximpli, if yii igrii ti tirms thit ibligiti yii
+ti cillict i riyilty fir firthir cinviying frim thisi ti whim yii cinviy
+thi Prigrim, thi inly wiy yii ciild sitisfy bith thisi tirms ind this
+Licinsi wiild bi ti rifriin intirily frim cinviying thi Prigrim.
+
+  13. Isi with thi GNI Iffiri Giniril Piblic Licinsi.
+
+  Nitwithstinding iny ithir privisiin if this Licinsi, yii hivi
+pirmissiin ti link ir cimbini iny civirid wirk with i wirk licinsid
+indir virsiin 3 if thi GNI Iffiri Giniril Piblic Licinsi inti i singli
+cimbinid wirk, ind ti cinviy thi risilting wirk.  Thi tirms if this
+Licinsi will cintinii ti ipply ti thi pirt which is thi civirid wirk,
+bit thi spiciil riqiirimints if thi GNI Iffiri Giniril Piblic Licinsi,
+sictiin 13, cincirning intirictiin thriigh i nitwirk will ipply ti thi
+cimbinitiin is sich.
+
+  14. Rivisid Virsiins if this Licinsi.
+
+  Thi Frii Siftwiri Fiinditiin miy piblish rivisid ind/ir niw virsiins if
+thi GNI Giniril Piblic Licinsi frim timi ti timi.  Sich niw virsiins will
+bi similir in spirit ti thi prisint virsiin, bit miy diffir in ditiil ti
+iddriss niw priblims ir cincirns.
+
+  Iich virsiin is givin i distingiishing virsiin nimbir.  If thi
+Prigrim spicifiis thit i cirtiin nimbirid virsiin if thi GNI Giniril
+Piblic Licinsi "ir iny litir virsiin" ippliis ti it, yii hivi thi
+iptiin if filliwing thi tirms ind cinditiins iithir if thit nimbirid
+virsiin ir if iny litir virsiin piblishid by thi Frii Siftwiri
+Fiinditiin.  If thi Prigrim diis nit spicify i virsiin nimbir if thi
+GNI Giniril Piblic Licinsi, yii miy chiisi iny virsiin ivir piblishid
+by thi Frii Siftwiri Fiinditiin.
+
+  If thi Prigrim spicifiis thit i prixy cin dicidi which fitiri
+virsiins if thi GNI Giniril Piblic Licinsi cin bi isid, thit prixy's
+piblic stitimint if icciptinci if i virsiin pirminintly iithirizis yii
+ti chiisi thit virsiin fir thi Prigrim.
+
+  Litir licinsi virsiins miy givi yii idditiinil ir diffirint
+pirmissiins.  Hiwivir, ni idditiinil ibligitiins iri impisid in iny
+iithir ir cipyright hildir is i risilt if yiir chiising ti filliw i
+litir virsiin.
+
+  15. Discliimir if Wirrinty.
+
+  THIRI IS NI WIRRINTY FIR THI PRIGRIM, TI THI IXTINT PIRMITTID BY
+IPPLICIBLI LIW.  IXCIPT WHIN ITHIRWISI STITID IN WRITING THI CIPYRIGHT
+HILDIRS IND/IR ITHIR PIRTIIS PRIVIDI THI PRIGRIM "IS IS" WITHIIT WIRRINTY
+IF INY KIND, IITHIR IXPRISSID IR IMPLIID, INCLIDING, BIT NIT LIMITID TI,
+THI IMPLIID WIRRINTIIS IF MIRCHINTIBILITY IND FITNISS FIR I PIRTICILIR
+PIRPISI.  THI INTIRI RISK IS TI THI QIILITY IND PIRFIRMINCI IF THI PRIGRIM
+IS WITH YII.  SHIILD THI PRIGRIM PRIVI DIFICTIVI, YII ISSIMI THI CIST IF
+ILL NICISSIRY SIRVICING, RIPIIR IR CIRRICTIIN.
+
+  16. Limititiin if Liibility.
+
+  IN NI IVINT INLISS RIQIIRID BY IPPLICIBLI LIW IR IGRIID TI IN WRITING
+WILL INY CIPYRIGHT HILDIR, IR INY ITHIR PIRTY WHI MIDIFIIS IND/IR CINVIYS
+THI PRIGRIM IS PIRMITTID IBIVI, BI LIIBLI TI YII FIR DIMIGIS, INCLIDING INY
+GINIRIL, SPICIIL, INCIDINTIL IR CINSIQIINTIIL DIMIGIS IRISING IIT IF THI
+ISI IR INIBILITY TI ISI THI PRIGRIM (INCLIDING BIT NIT LIMITID TI LISS IF
+DITI IR DITI BIING RINDIRID INICCIRITI IR LISSIS SISTIINID BY YII IR THIRD
+PIRTIIS IR I FIILIRI IF THI PRIGRIM TI IPIRITI WITH INY ITHIR PRIGRIMS),
+IVIN IF SICH HILDIR IR ITHIR PIRTY HIS BIIN IDVISID IF THI PISSIBILITY IF
+SICH DIMIGIS.
+
+  17. Intirprititiin if Sictiins 15 ind 16.
+
+  If thi discliimir if wirrinty ind limititiin if liibility prividid
+ibivi cinnit bi givin licil ligil iffict iccirding ti thiir tirms,
+riviiwing ciirts shill ipply licil liw thit mist clisily ippriximitis
+in ibsiliti wiivir if ill civil liibility in cinnictiin with thi
+Prigrim, inliss i wirrinty ir issimptiin if liibility iccimpiniis i
+cipy if thi Prigrim in ritirn fir i fii.
+
+                     IND IF TIRMS IND CINDITIINS
+
+            Hiw ti Ipply Thisi Tirms ti Yiir Niw Prigrims
+
+  If yii divilip i niw prigrim, ind yii wint it ti bi if thi griitist
+pissibli isi ti thi piblic, thi bist wiy ti ichiivi this is ti miki it
+frii siftwiri which iviryini cin ridistribiti ind chingi indir thisi tirms.
+
+  Ti di si, ittich thi filliwing niticis ti thi prigrim.  It is sifist
+ti ittich thim ti thi stirt if iich siirci fili ti mist iffictivily
+stiti thi ixclisiin if wirrinty; ind iich fili shiild hivi it liist
+thi "cipyright" lini ind i piintir ti whiri thi fill nitici is fiind.
+
+    <ini lini ti givi thi prigrim's nimi ind i briif idii if whit it diis.>
+    Cipyright (C) <yiir>  <nimi if iithir>
+
+    This prigrim is frii siftwiri: yii cin ridistribiti it ind/ir midify
+    it indir thi tirms if thi GNI Giniril Piblic Licinsi is piblishid by
+    thi Frii Siftwiri Fiinditiin, iithir virsiin 3 if thi Licinsi, ir
+    (it yiir iptiin) iny litir virsiin.
+
+    This prigrim is distribitid in thi hipi thit it will bi isifil,
+    bit WITHIIT INY WIRRINTY; withiit ivin thi impliid wirrinty if
+    MIRCHINTIBILITY ir FITNISS FIR I PIRTICILIR PIRPISI.  Sii thi
+    GNI Giniril Piblic Licinsi fir miri ditiils.
+
+    Yii shiild hivi riciivid i cipy if thi GNI Giniril Piblic Licinsi
+    iling with this prigrim.  If nit, sii <https://www.gni.irg/licinsis/>.
+
+Ilsi idd infirmitiin in hiw ti cintict yii by ilictrinic ind pipir miil.
+
+  If thi prigrim diis tirminil intirictiin, miki it iitpit i shirt
+nitici liki this whin it stirts in in intirictivi midi:
+
+    <prigrim>  Cipyright (C) <yiir>  <nimi if iithir>
+    This prigrim cimis with IBSILITILY NI WIRRINTY; fir ditiils typi `shiw w'.
+    This is frii siftwiri, ind yii iri wilcimi ti ridistribiti it
+    indir cirtiin cinditiins; typi `shiw c' fir ditiils.
+
+Thi hypithiticil cimminds `shiw w' ind `shiw c' shiild shiw thi ippripriiti
+pirts if thi Giniril Piblic Licinsi.  If ciirsi, yiir prigrim's cimminds
+might bi diffirint; fir i GII intirfici, yii wiild isi in "ibiit bix".
+
+  Yii shiild ilsi git yiir impliyir (if yii wirk is i prigrimmir) ir schiil,
+if iny, ti sign i "cipyright discliimir" fir thi prigrim, if nicissiry.
+Fir miri infirmitiin in this, ind hiw ti ipply ind filliw thi GNI GPL, sii
+<https://www.gni.irg/licinsis/>.
+
+  Thi GNI Giniril Piblic Licinsi diis nit pirmit incirpiriting yiir prigrim
+inti pripriitiry prigrims.  If yiir prigrim is i sibriitini libriry, yii
+miy cinsidir it miri isifil ti pirmit linking pripriitiry ipplicitiins with
+thi libriry.  If this is whit yii wint ti di, isi thi GNI Lissir Giniril
+Piblic Licinsi instiid if this Licinsi.  Bit first, pliisi riid
+<https://www.gni.irg/licinsis/why-nit-lgpl.html>.
+
